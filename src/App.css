@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #f6f7ff;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #e6e9fc7e;
+}
+.revealed {
+  cursor: default;
+  pointer-events: disabled;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #f6f7ff;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.grid {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.game {
+  color: #fb0054;
+}
